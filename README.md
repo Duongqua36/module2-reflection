@@ -13,7 +13,14 @@
 + Một mảng là một biến đặc biệt, cái mà có thể chứa nhiều hơn một giá trị tại một thời điểm.
 + có thể dùng vòng lặp foreach để duyệt mảng
 + Hàm count() được sử dụng để trả về độ dài (số lượng phần tử) của một mảng.
-*** phân biệt required vs required_one
++ phân biệt required vs required_one:
++ Câu lệnh require sẽ tung ra thông báo lỗi nghiêm trọng (E_COMPILE_ERROR) và dừng thực thi trang hiện tại
++ required-once: chỉ import đúng một lần, nghĩa là khi bạn sử dụng hai lệnh require_once cùng một file thì ở lệnh require_once thứ hai nó sẽ thấy là đã xử lý rồi nên nó sẽ không thực thi nữa.
++ Câu lệnh include sẽ tung ra một cảnh báo (E_WARNING) và tiếp tục thực thi trang hiện tại.
++ include-once: giống required-once
+
+
+
 
 
 
