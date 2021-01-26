@@ -10,3 +10,11 @@
 
 
 ### reflection 26/01/2021
++ Một mảng là một biến đặc biệt, cái mà có thể chứa nhiều hơn một giá trị tại một thời điểm.
++ có thể dùng vòng lặp foreach để duyệt mảng
++ Hàm count() được sử dụng để trả về độ dài (số lượng phần tử) của một mảng.
+*** phân biệt required vs required_one
+
+
+
+
