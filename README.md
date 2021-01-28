@@ -1,5 +1,21 @@
 # module2-reflection
 
+### reflection 28/01/2021
++ Access modifile là các từ khóa sử dụng để quy định mức độ phạm vi truy cập đến lớp và thành phần của lớp
++ public:dùng cho cả lớp, thuộc tính và phương thức của lớp ,có thể truy cập đến bất cứ đâu
++ protected: dùng cho thuộc tính và phương thức của lớp chỉ được truy cập trong cùng một lớp và các lớp con kế thừa
++ private: dùng cho thuộc tính phương thức của lớp ,đươc phép truy cập trong một lớp đó
++  $this là một biến đặc biệt (được sử dụng trong tất cả các đối tượng) nó lưu một tham chiếu đến đối tượng hiện tại,Bạn sử dụng $this để truy cập các thuộc tính và gọi các phương thức cho đối tượng hiện tại được tạo ra từ lớp.
++ Từ khóa new để tạo một đối tượng từ lớp đã định nghĩa
++ setter là phương thức cho phép thay đổi giá trị của thuộc tính, getter là phương thức cho phép lấy về giá trị của thuộc tính 
++ Namespace (tên miền không gian) là một hình thức để đóng gói các hạng mục có liên quan lại với nhau
++ namespace phân biệt chữ hoa và chữ thường
++ Khi sử dụng từ khoá static với các thành phần của một lớp thì chúng có thể được truy cập thông qua tên của lớp mà không cần khởi tạo đối tượng, Một thuộc tính static thì không thể được truy cập thông qua một đối tượng của lớp đó, nhưng một phương thức static thì có thể được gọi thông qua một đối tượng của lớp.
+
+
+
+
+
 ### reflection 27/01/2021
 + Access modifile là các từ khóa sử dụng để quy định mức độ phạm vi truy cập đến lớp và thành phần của lớp
 + public:dùng cho cả lớp, thuộc tính và phương thức của lớp ,có thể truy cập đến bất cứ đâu
