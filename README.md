@@ -1,5 +1,21 @@
 # module2-reflection
 
+# reflection 01/02/2021
++ abstract class và class:
++ giống:
++ đều là một class
++ đều chứa thuộc tính và phương thức
++ khác nhau:
++ Abstract class có tính trừu tượng rất cao, không thể tạo được các đối tượng của lớp đó.
++ phương thức chỉ khai báo mà không có phần thân
++ lớp kế thừa interface thì phải triển khai chính xác phương thức đã được m
++ interface :Là cấu trúc giống như lớp,chứa hằng số và abstract method.Nó quy định các hành vi chung cho các lớp triển khai nó, nó là bản thiết kế cho  method, Các method có định nghĩa giống nhau nhưng khác nhau về bản chất. Sử dụng từ khóa (interface).Một lớp triển khai interface thì cần triển khai tất cả các phương thức được khai báo trong đó
+
+
+
+
+
+
 ### reflection 29/01/2021
 + Khi một class được khai báo là final thì không lớp nào có thể kế thừa nó và nó chỉ có thể khởi tạo được thôi.
 # so sánh override và overload :
