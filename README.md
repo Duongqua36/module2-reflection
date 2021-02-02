@@ -1,5 +1,16 @@
 # module2-reflection
 
+# reflection 02/02/2021
+* clean code:
++ Đơn giản
++ Dễ hiểu
++ có ít phụ thuộc
++ không có code lặp
+# clean code được gì:
+
+
+
+
 # reflection 01/02/2021
 + abstract class và class:
 + giống:
