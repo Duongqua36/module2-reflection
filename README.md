@@ -1,13 +1,32 @@
 # module2-reflection
 
 # reflection 02/02/2021
-* clean code:
-+ Đơn giản
-+ Dễ hiểu
-+ có ít phụ thuộc
-+ không có code lặp
-# clean code được gì:
-
++ clean code:
+  + Đơn giản
+  + Dễ hiểu
+  + có ít phụ thuộc
+  + không có code lặp
++ clean code được gì:
+  + cộng tác dễ dàng hơn
+  + Debug dễ hơn
+  + ít rủi ro hơn,có năng xuất hơn
++ cách thực hành clean code:
+  + Tên phải có nghĩa không viết tắt.
+  + Tránh đặt tên chung chung tối nghĩa hoặc có những ký tự gây nhẫm lẫn.
+  + 1 hàm không nên quá 30 dòng
+  + Lớp không lên vượt quá 500 dòng
+  + Một hàm thì chỉ nên làm duy nhất một việc.
+  + Khi khai báo biến thì một dòng chỉ chứa một biến.
+  + Một dòng không nên quá 80 ký tự.
+  + Xuống hàng sau dấu phẩy "," hoặc trước các toán từ.
+  + Hạn chế dùng comment để giải thích code mà hãy cải thiện đoạn code của mình.
+  
++ SOLID : là 5 nguyên lý giúp lập trình viên phát triển phần mềm với kiến trúc tốt .
+  + S-Single responsibility principle :Mỗi lớp chỉ nên làm duy nhất một nhiệm vụ
+  + O-Open closed principle: Luôn đóng với mọi thay đổi nhưng luôn mở đối với việc mở rộng
+  + L-Liskov substitution principle :C
+  + I-Interface segregation principle: thay vì dùng 1 interface lớn, ta nên tách thành nhiều interface nhỏ với nhiều mục đích cụ thể
+  + D-Dependency inversion principle: Các module cấp cao không nên phục thuộc vào các module thấp.Cả 2 nên phụ thuộc vào abstraction ,chi tiết phụ thuộc vào interface (các class giao tiếp với nhau thông qua interface, không phải thông qua implementation )
 
 
 
