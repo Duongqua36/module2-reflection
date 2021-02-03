@@ -81,23 +81,23 @@
 
 ### reflection 29/01/2021
 + Khi một class được khai báo là final thì không lớp nào có thể kế thừa nó và nó chỉ có thể khởi tạo được thôi.
-# so sánh override và overload :
-# override :
-+ Thay đổi hành vi hiện tại của phương thức.
-+ Thay đổi hành vi hiện tại của phương thức.	
-+ Phương thức ghi đè ở lớp con phải có quyền truy cập bằng hoặc lớn hơn phương thức được ghi đè ở lớp cha.	
-+ Kiểu trả về bắt buộc phải giống nhau.	
-+ Danh sách tham số phải giống nhau.	
-# overload:
-+ Thêm hoặc mở rộng cho hành vi của phương thức.
-+ Thể hiện tính đa hình tại compile time.
-+ Danh sách tham số có thể khác nhau.
-+ Các phương thức nạp chồng có thể có quyền truy cập khác nhau.
-+ Kiểu trả về có thể khác nhau.
-+ Xảy ra trong phạm vi cùng 1 class.
-# constructor :
-+ là một phương thức , được thực thi khi tạo ra đối tượng. Nó thường được sử dụng để khởi tạo các chức năng như gán thuộc tính với giá trị hay tạo ra các đối tượng khác từ đối tượng vừa tạo.không thể tạo nhiều constructor trong một class,
-+ -Khi nào thì lớp cha không cho phép lớp con kế thừa các thuộc tính và phương thức.khi khai báo private
++ so sánh override và overload :
++ override :
+  + Thay đổi hành vi hiện tại của phương thức.
+  + Thay đổi hành vi hiện tại của phương thức.	
+  + Phương thức ghi đè ở lớp con phải có quyền truy cập bằng hoặc lớn hơn phương thức được ghi đè ở lớp cha.	
+  + Kiểu trả về bắt buộc phải giống nhau.	
+  + Danh sách tham số phải giống nhau.	
++ overload:
+  + Thêm hoặc mở rộng cho hành vi của phương thức.
+  + Thể hiện tính đa hình tại compile time.
+  + Danh sách tham số có thể khác nhau.
+  + Các phương thức nạp chồng có thể có quyền truy cập khác nhau.
+  + Kiểu trả về có thể khác nhau.
+  + Xảy ra trong phạm vi cùng 1 class.
++ constructor :
+  + là một phương thức , được thực thi khi tạo ra đối tượng. Nó thường được sử dụng để khởi tạo các chức năng như gán thuộc tính với giá trị hay tạo ra các đối tượng khác từ đối tượng vừa tạo.không thể tạo nhiều constructor trong một class,
+  + -Khi nào thì lớp cha không cho phép lớp con kế thừa các thuộc tính và phương thức.khi khai báo private
 
 
 
