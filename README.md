@@ -1,5 +1,38 @@
 # module2-reflection
 
+# reflection 03/02/2021
++ Cấu trúc dữ liệu là hình thức tổ chức một nhóm dữ liệu bao gồm các chức năng:
+  + Lưu trữ dữ liệu
+  + Cung cấp các phương thức để thao tác với dữ liệu
++ trong cấu trúc dữ liệu có hai thành phần quan trọng chính là container và element:
+  + Container: Là lớp chứa dữ liệu và cung cấp các phương thức để thao tác với dữ liệu
+  + Elements: Chính là các phần tử dữ liệu
++ Các cấu trúc dữ liệu thông dụng:
+  + Set (Tập hợp): Nhóm các phần tử không trùng nhau
+  + List (Danh sách): Nhóm ác phần tử có thể trùng nhau
+  + Stack: Nhóm các phần tử theo trật tự first-in/last-out (vào trước/ra sau)
+  + Queue: Nhóm các phần tử theo trật tự first-in/first-out (vào trước/ra trước)
+  + Map (Bản đồ): Lưu trữ các cặp key/value
+  + Tree (Cây): Lưu trữ các phần tử theo mối quan hệ cha-con
+  + Graph (Đồ thị): Lưu trữ các phần tử theo mối quan hệ mạng lưới
++ Cấu trúc dữ liệu ArrayList:
+  + ArrayList là một cấu trúc dữ liệu danh sách đặc trưng. Bên trong ArrayList sử dụng mảng để lưu trữ dữ liệu, do đó nó có tên là ArrayList, tức là một List được triển khai dựa trên Array,
+  + Đặc điểm của cấu trúc dữ liệu ArrayList đó là hỗ trợ việc truy xuất nhanh đến các phần tử 
+  + nhưng thao tác thêm và xoá các phần tử trong ArrayList lại không hiệu quả, bởi vì cần phải thực hiện các thao tác dịch chuyển các phần tử trong mảng.
++ Các thao tác cơ bản của ArrayList:
+  + get(): Lấy về một phần tử
+  + add(): Thêm một phần tử
+  + remove(): Xoá một phần tử
+  + size(): Lấy về số lượng phần tử
+  + find(): Tìm kiếm phần tử
+  + isEmpty(): Kiểm tra rỗng
++ Cấu trúc dữ liệu LinkedList:
+  + LinkedList là một cấu trúc dữ liệu danh sách, trong đó, các phần tử được liên kết thông qua các tham chiếu tuyến tính giữa các phần tử liên tiếp nhau, Mỗi phần thử có thể được gọi là 1 node trong danh sách.
+  + Đặc trưng cơ bản của LinkedList đó là việc truy xuất ngẫu nhiên chậm
+  + nhưng thao tác thêm và xoá phần tử trong LinkedList lại rất hiệu quả
+  
+  
+
 # reflection 02/02/2021
 + clean code:
   + Đơn giản
@@ -33,13 +66,13 @@
 # reflection 01/02/2021
 + abstract class và class:
 + giống:
-+ đều là một class
-+ đều chứa thuộc tính và phương thức
+  + đều là một class
+  + đều chứa thuộc tính và phương thức
 + khác nhau:
-+ Abstract class có tính trừu tượng rất cao, không thể tạo được các đối tượng của lớp đó.
-+ phương thức chỉ khai báo mà không có phần thân
-+ lớp kế thừa interface thì phải triển khai chính xác phương thức đã được m
-+ interface :Là cấu trúc giống như lớp,chứa hằng số và abstract method.Nó quy định các hành vi chung cho các lớp triển khai nó, nó là bản thiết kế cho  method, Các method có định nghĩa giống nhau nhưng khác nhau về bản chất. Sử dụng từ khóa (interface).Một lớp triển khai interface thì cần triển khai tất cả các phương thức được khai báo trong đó
+  + Abstract class có tính trừu tượng rất cao, không thể tạo được các đối tượng của lớp đó.
+  + phương thức chỉ khai báo mà không có phần thân
+  + lớp kế thừa interface thì phải triển khai chính xác phương thức đã được m
+  + interface :Là cấu trúc giống như lớp,chứa hằng số và abstract method.Nó quy định các hành vi chung cho các lớp triển khai nó, nó là bản thiết kế cho  method, Các method có định nghĩa giống nhau nhưng khác nhau về bản chất. Sử dụng từ khóa (interface).Một lớp triển khai interface thì cần triển khai tất cả các phương thức được khai báo trong đó
 
 
 
