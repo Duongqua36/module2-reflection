@@ -1,5 +1,27 @@
 # module2-reflection
 
+# reflection 04/02/2021
++ Stack:
+  + Stack (ngăn xếp) là một cấu trúc dữ liệu danh sách, trong đó việc thêm và lấy các phần tử được thực hiện theo quy tắc FILO (Fist-In/Last-Out)
++ Các thao tác thông dụng của Stack bao gồm:
+  + init: create the stack
+  + push – add an item to the top of the stack.
+  + pop – remove the last item added to the top of the stack.
+  + top – look at the item on the top of the stack without removing it.
+  + isEmpty – return whether the stack contains no more items.
++ Queue:
+  + Queue (hàng đợi) là một cấu trúc dữ liệu danh sách, trong đó việc thêm và lấy các phần tử được thực hiện theo quy tắc FIFO(Fist-In/First-Out)
++ Các thao tác thông dụng của Queue bao gồm:
+  + init – tạo một hàng đợi
+  + enqueue – thêm một phần tử vào phần cuối (đuôi - tail) của hàng đợi.
+  + dequeue – lấy ra phần tử đầu tiên (đầu - head) của hàng đợi (đầu).
+  + isEmpty – trả về true/false để xác định xem hàng đợi này có chứa phần tử nào hay không.
++ Cấu trúc cây (tree):
+  + Cấu trúc Tree cho phép chúng ta tận dụng ưu điểm của cả 2 cấu trúc tuyến tính (linear) và liên kết (linked)
+  + Chúng ta có thể thấy rằng cấu trúc Tree hoạt động theo nguyên tắc phân cấp, trong đó có mối quan hệ cha-con giữa các nút (node). Node mà không có cha thì được gọi là root (nút gốc), node mà không có con thì được gọi là leaf (nút lá).
+  
+
+
 # reflection 03/02/2021
 + Cấu trúc dữ liệu là hình thức tổ chức một nhóm dữ liệu bao gồm các chức năng:
   + Lưu trữ dữ liệu
