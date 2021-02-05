@@ -1,5 +1,14 @@
 # module2-reflection
 
+# reflection 05/02/2021
++ Bộ thư biện SPL (Standard PHP Library - Bộ thư viện chuẩn của PHP) cung cấp nhiều cấu trúc dữ liệu tiêu chuẩn để chúng ta có thể sử dụng ngay trong ứng dụng của mình
++ Heaps: Heaps là một dạng cấu trúc gần giống với tree, trong đó mỗi node sẽ có giá trị lớn hơn hoặc bằng các node con của nó.
++ Arrays: Arrays là cấu trúc dữ liệu trong đó lưu trữ các phần tử theo hình thức liên tiếp nhau, các phần tử này được truy cập dựa vào chỉ số của chúng.
++ Map: Map là một cấu trúc dữ liệu trong đó các phần tử được quản lí theo cặp key-value (khoá-giá trị).
++ Doubly Linked List:Một danh sách liên kết đôi là một danh sách các node được liên kết với nhau theo cả hai hướng.
+
+
+
 # reflection 04/02/2021
 + Stack:
   + Stack (ngăn xếp) là một cấu trúc dữ liệu danh sách, trong đó việc thêm và lấy các phần tử được thực hiện theo quy tắc FILO (Fist-In/Last-Out)
