@@ -1,5 +1,37 @@
 # module2-reflection
 
+# reflection 18/02/2021
++ Thuật toán sắp xếp:
+   + Sắp xếp (sorting) là quá trình bố trí lại các phần tử của một danh sách các đối tương nào đó theo một trật tự nhất định. Chẳng hạn tứ tự tăng dần (hay giảm dần) đối với một dãy số, thứ tự từ điển đối với một dãy chữ
++ Sắp xếp nổi bọt:
+  + Sắp xếp nổi bọt (tiếng Anh: bubble sort) là một thuật toán sắp xếp đơn giản, với thao tác cơ bản là so sánh hai phần tử kề nhau, nếu chúng chưa đứng đúng thứ tự thì đổi chỗ (swap) cho nhau. Có thể tiến hành từ trên xuống (bên trái sang) hoặc từ dưới lên (bên phải sang). Sắp xếp nổi bọt còn có tên là sắp xếp bằng so sánh trực tiếp. Nó sử dụng phép so sánh các phần tử nên là một giải thuật sắp xếp kiểu so sánh.
+  + Giải thuật này không thích hợp sử dụng với các tập dữ liệu lớn khi mà độ phức tạp trường hợp xấu nhất và trường hợp trung bình là Ο(n2) với n là số phần tử.
+  + Giải thuật sắp xếp này được tiến hành dựa trên việc so sánh cặp phần tử liền kề nhau và tráo đổi thứ tự nếu chúng không theo thứ tự.
++ Sắp xếp chèn:
+  + Sắp xếp chèn (insertion sort) là một thuật toán sắp xếp bắt chước cách sắp xếp quân bài của những người chơi bài. Muốn sắp một bộ bài theo trật tự người chơi bài rút lần lượt từ quân thứ 2, so với các quân đứng trước nó để chèn vào vị trí thích hợp.
+  + Giải thuật này không thích hợp sử dụng với các tập dữ liệu lớn khi độ phức tạp trường hợp xấu nhất và trường hợp trung bình là Ο(n2) với n là số phần tử.
++ Sắp xếp chọn:
+  +Sắp xếp chọn là một thuật toán sắp xếp đơn giản, dựa trên việc so sánh tại chỗ,Chọn phần tử nhỏ nhất trong n phần tử ban đầu, đưa phần tử này về vị trí đúng là đầu tiên của dãy hiện hành
+  + Các bước thực hiện:
+  + Bước 1: i=1
+  + Bước 2: Tìm phần tử a[min] nhỏ nhất trong dãy hiện hành từ a[i] đến a[n]
+  + Bước 3: Hoán vị a[min] và a[i]
+  + Bước 4: Nếu i<=n-1 thì i=i+1; Lặp lại bước 2
+    Ngược lại: Dừng. n-1 phần tử đã nằm đúng vị trí.
+
+
+# reflection 17/02/2021
++ Thuật toán tìm kiếm tuyến tính:
+  + Tìm kiếm tuyến tính là một thuật toán tìm kiếm một phần tử cho trước nằm trong một danh sách (có thể là mảng) bằng cách duyệt lần lược các phần tử và so sánh cho đến khi tìm thấy phần tử đó.
++ Một số thuật toán tìm kiếm thông dụng bao gồm:
+   + Tìm kiếm tuyến tính
+   + Tìm kiếm nhị phân
+   + Tìm kiếm nội suy
++ Thuật toán tìm kiếm nhị phân:
+  + Binary Search tìm kiếm một phần tử cụ thể bằng cách so sánh phần tử tại vị trí giữa nhất của tập dữ liệu. Nếu giá trị trùng nhau thì chỉ mục của phần tử được trả về. Nếu phần tử cần tìm là lớn hơn giá trị phần tử giữa thì phần tử cần tìm được tìm trong mảng con nằm ở bên phải phần tử giữa; nếu không thì sẽ tìm ở trong mảng con nằm ở bên trái phần tử giữa. Tiến trình sẽ tiếp tục như vậy trên mảng con cho tới khi tìm hết mọi phần tử trên mảng con này.
+
+
+
 # reflection 05/02/2021
 + Bộ thư biện SPL (Standard PHP Library - Bộ thư viện chuẩn của PHP) cung cấp nhiều cấu trúc dữ liệu tiêu chuẩn để chúng ta có thể sử dụng ngay trong ứng dụng của mình
 + Heaps: Heaps là một dạng cấu trúc gần giống với tree, trong đó mỗi node sẽ có giá trị lớn hơn hoặc bằng các node con của nó.
