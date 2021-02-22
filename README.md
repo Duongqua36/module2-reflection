@@ -6,11 +6,11 @@
   + Chuỗi được bao quanh bởi dấu nháy đơn (' ') hoặc dấu nháy kép (" ").
 + Các hàm thao tác với chuỗi:
   + strlen($string): hàm trả về độ dài chuỗi 
-   + vd:<?php echo strlen("Hello world!"); // outputs 12?>
+  + <?php echo strlen("Hello world!"); // outputs 12?>
   + str_word_count($string): hàm trả về số từ trong chuỗi
-   + vd:<?php echo str_word_count("Hello world!"); // outputs 2?>
+  + <?php echo str_word_count("Hello world!"); // outputs 2?>
   + strrev($string): hàm đảo ngược chuỗi
-   + <?php echo strrev(" Hello "); // outputs olleH  ?>
+  + <?php echo strrev(" Hello "); // outputs olleH  ?>
   + strpos($string,$text): hàm tìm kiếm chuỗi $text trong chuỗi $string. Nếu tìm thấy, hàm trả về chỉ số ký tự đầu tiên tìm thấy của chuỗi. Nếu không tìm thấy, hàm trả về FALSE.
   + str_replace($find, $replace, $string): hàm tìm kiếm chuỗi $find, thay thế chuỗi đó bằng $replace trong chuỗi ban đầu $string
   + substr(string,start,length): Hàm này có tác dụng cắt chuỗi $string, bắt đầu ở vị trí $strat và có giới hạn $length
