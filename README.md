@@ -6,11 +6,11 @@
   + Chuỗi được bao quanh bởi dấu nháy đơn (' ') hoặc dấu nháy kép (" ").
 + Các hàm thao tác với chuỗi:
   + strlen($string): hàm trả về độ dài chuỗi 
-    + vd:<?php echo strlen("Hello world!"); // outputs 12?>
+   + vd:<?php echo strlen("Hello world!"); // outputs 12?>
   + str_word_count($string): hàm trả về số từ trong chuỗi
-    + vd:<?php echo str_word_count("Hello world!"); // outputs 2?>
+   + vd:<?php echo str_word_count("Hello world!"); // outputs 2?>
   + strrev($string): hàm đảo ngược chuỗi
-    + <?php echo strrev(" Hello "); // outputs olleH  ?>
+   + <?php echo strrev(" Hello "); // outputs olleH  ?>
   + strpos($string,$text): hàm tìm kiếm chuỗi $text trong chuỗi $string. Nếu tìm thấy, hàm trả về chỉ số ký tự đầu tiên tìm thấy của chuỗi. Nếu không tìm thấy, hàm trả về FALSE.
   + str_replace($find, $replace, $string): hàm tìm kiếm chuỗi $find, thay thế chuỗi đó bằng $replace trong chuỗi ban đầu $string
   + substr(string,start,length): Hàm này có tác dụng cắt chuỗi $string, bắt đầu ở vị trí $strat và có giới hạn $length
@@ -25,7 +25,7 @@
    + Khi tạo mẫu HTML tùy chỉnh. Biểu thức chính quy thông thường có thể được sử dụng để xác định các tag và thay thế chúng bằng dữ liệu thực tế.
    + Đặc biệt, sử dụng biểu thức chính quy tăng performance của chương trình rất nhiều lần.
    + Khai báo biểu thức chính quy:
-      + Cú pháp: $pattern = '/các ký tự của BTCQ- metacharacters/flags';
+    + Cú pháp: $pattern = '/các ký tự của BTCQ- metacharacters/flags';
  + Các hàm thao tác với Regular Expression trong PHP:
    + Hàm preg_match() được dùng để kiểm tra, so khớp và lấy kết quả của việc so sánh chuỗi dựa vào biểu thức chính quy. Hàm trả về TRUE/FALSE.
    + preg_match_all() cũng tương tự hàm preg_match() ở trên , tuy nhiên hai hàm này khác nhau ở chỗ , hàm preg_match_all() sẽ trả về    toàn bộ các giá trị được so sánh khớp, còn hàm preg_match() chỉ trả về giá trị đầu tiên được so sánh khớp.
