@@ -1,5 +1,34 @@
 # module2-reflection
 
+# reflection 23/02/2021
++ Cơ sở dữ liệu:
+  + Cơ sở dữ liệu là một tập hợp các dữ liệu có tổ chức, thường được lưu trữ và truy cập điện tử từ hệ thống máy tính.
++ một số kiểu mô hình kiểu dữ liệu
+  + CSDL phân cấp (hierarchical)
+  + CSDL mạng (net work)
+  + CSDL đồ thị (Graph)
+  + CSDL quan hệ
+  + CSDL đối tượng
++ DBMS:
+ + Hệ quản lý cơ sở dữ liệu (Database Management System - DBMS) là phần mềm tương tác với người dùng, ứng dụng và chính cơ sở dữ liệu để thu thập và phân tích dữ liệu.
+ +  DBMS là phần mềm được thiết kế để có thể xác định, tiến hành các thao tác, truy xuất và quản lý dữ liệu trong Cơ sở dữ liệu. DBMS thường có khả năng tự thao tác với dữ liệu, định dạng dữ liệu, tên trường, cấu trúc bản ghi và cấu trúc tệp.
+ +  DBMS Lưu trữ dữ liệu dưới dạng file
+ +  DL được lưu trữ duới dạng phân cấp và điều hướng
+ + Không có bảo vệ DL khi thực hiện các thao tác
+ + Thường dùng trong DL nhỏ và khối lượng DL nhỏ
+ + Cung cấp những phương thức thống nhất để truy cập vào thông tin được lưu trữ
+ + Không có hỗ trợ DL phân tán
++ RDBMS:
+ + Cơ sở dữ liệu quan hệ (tiếng Anh: relational database) là một cơ sở dữ liệu số dựa trên mô hình quan hệ dữ liệu
+ + Được lưu trữ dưới dạng bảng
+ + Bảng có một định danh goi là khóa chính và giá trị được lưu trữ dưới dạng bảng
+ + Có ràng buôc toàn vẹn đảm bảo toàn vẹn DL khi thực hiện các thao tác DL như thêm sửa xóa...
+ + Hỗ trợ một cấu trúc bảng và quan hệ giữa chúng để truy cập vào thông tin lưu trữ
+ + Hỗ trợ CSDL phân tán
++ SQL:
+  + sql là viết tắt của Structured Query Language là ngôn ngữ truy vấn có cấu trúc. Nó là một ngôn ngữ, là tập hợp các lệnh để tương tác với cơ sở dữ liệu. Dùng để lưu trữ, thao tác và truy xuất dữ liệu được lưu trữ trong một cơ sở dữ liệu quan hệ.
+  
+
 # refllection 22/02/2021
 + Chuỗi (String):
   + Chuỗi là một kiểu dữ liệu cơ bản trong PHP. Chuỗi là dãy liên tiếp các ký tự. Chuỗi mà không chứa ký tự thì được gọi là chuỗi rỗng.
