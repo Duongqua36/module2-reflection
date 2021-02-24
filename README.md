@@ -1,5 +1,28 @@
 # module2-reflection
 
+# reflection 24/02/2021
++ các bước phân tích và thiết kế CSDL quan hệ:
+  +  Xác định mục đích của CSDL.
+  +  Tìm hiểu và tổ chức các thông tin cần lưu trữ.
+  + chia thông tin vào trong các bảng.
+  + Xác định trường dữ liệu của từng bảng.
+  + Khóa chính của các bảng.
+  + Mối quan hệ giữa các bảng.
+  + Làm mịn thiết kế.
+  + Áp dụng các quy tắc chuẩn hóa.
++ Chuẩn hóa dữ liệu:
+  + là một kĩ thuật thiết kế cơ sở dữ liệu tổ chức các bảng theo cách làm giảm sự dư thừa và phụ thuộc của dữ liệu.
++ Khóa chính (Primary key):
+  + Mỗi bảng chỉ tồn tại duy nhất một khóa chính.
+  + Giá trị khóa chính không được phép để null và giá trị đó là duy nhất trong bảng.
++ Khóa ngoại (foreign key):
+  + Là tập hợp các thuộc tính trong bảng tham chiếu đến bảng khác.
+  + Giá trị của khóa ngoại nó cùng kiểu, cùng độ dài, cùng giá trị với cột của bảng nó tham chiếu đến.
++ 
+
+
+
+
 # reflection 23/02/2021
 + Cơ sở dữ liệu:
   + Cơ sở dữ liệu là một tập hợp các dữ liệu có tổ chức, thường được lưu trữ và truy cập điện tử từ hệ thống máy tính.
