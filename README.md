@@ -1,5 +1,17 @@
 # module2-reflection
 
+# reflection 25/02/2021
++Toán tử AND là một toán tử logic kết hợp hai hay nhiều biểu thức Boolean và trả về true khi và chỉ khi cả hai biểu thức được đánh giá là true.
++ Toán tử AND thường được dùng trong mệnh đề WHERE của câu lệnh SELECT, UPDATE, DELETE để tạo điều kiện lọc tập kết quả trả về. Toán tử AND cũng được sử dụng trong điều kiện nối của mệnh đề JOIN.
++ Toán tử OR:
+ + Toán tử OR kết hợp hai hay nhiều biểu thức dạng boolean, chỉ cần một trong các điều kiện kết hợp là đúng thì kết quả là true. Vậy để sự kết hợp giữa các biểu thức trả về là sai thì tất cả các biểu thức kết hợp đều phải trả về sai.
+
++ Câu lệnh JOIN:
+  + Mệnh đề JOIN được sử dụng để kết hợp các hàng từ hai hay nhiều bảng, dựa trên cột liên quan giữa chúng. JOIN gồm 3 loại cơ bản INNER JOIN, LEFT JOIN, SELF JOIN.
++ INNER JOIN : Trả về record có mặt ở cả hai bảng
++ LEFT JOIN : TRẢ về toàn bộ record có mặt ở bảng bên trái và nhưngx record tương ứng ở bảng bên phải
++ FULL JOIN : trả về toàn bọ record có mặt ở bảng bên phải và những record tương ứng bảng bên trái
+
 # reflection 24/02/2021
 + các bước phân tích và thiết kế CSDL quan hệ:
   +  Xác định mục đích của CSDL.
