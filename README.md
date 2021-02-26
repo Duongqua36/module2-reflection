@@ -1,5 +1,38 @@
 # module2-reflection
 
+# reflection 26/02/2021
++ Hàm AVG() trả về giá trị trung bình của một cột kiểu số.
+VD:
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
++ Hàm COUNT() trả về số lượng bản ghi thoả mãn điền kiện đưa ra.
+VD:
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
++ Hàm MAX() trả về giá trị lớn nhất trong một cột và thoả mãn điều kiện đưa ra.
+VD:
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;
++ Hàm MIN() trả về giá trị nhỏ nhất trong một cột và thoả mãn điều kiện đưa ra.
+Vd:
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
++ Hàm SUM() trả về tổng giá trị của một cột kiểu số.
+VD:
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;
++ Hàm UCASE() chuyển giá trị của một trường sang chữ viết hoa.
+VD:
+SELECT UCASE(column_name) FROM table_name;
++ Hàm LCASE() chuyển giá trị của một trường sang chữ viết thường.
+VD:
+SELECT LCASE(column_name) FROM table_name;
+
 # reflection 25/02/2021
 +Toán tử AND là một toán tử logic kết hợp hai hay nhiều biểu thức Boolean và trả về true khi và chỉ khi cả hai biểu thức được đánh giá là true.
 + Toán tử AND thường được dùng trong mệnh đề WHERE của câu lệnh SELECT, UPDATE, DELETE để tạo điều kiện lọc tập kết quả trả về. Toán tử AND cũng được sử dụng trong điều kiện nối của mệnh đề JOIN.
