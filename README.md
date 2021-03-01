@@ -1,5 +1,19 @@
 # module2-reflection
 
+# reflection 01/03/2021
++INDEX CHỈ MUC:
+  +Là các bảng tra cứu đặc biệt mà db search engine có thể sử dụng để tăng nhanh thời gian và hiệu suất thu thập dữ liệu
+  + khi nào cần sử dụng index : khi nào bạn thay đổi CTDL
+ + các loại index:
+  + B-tree index
+  + Hash index
+  + R-tree index
++ cú pháp:
+  + tạo index trên 1 bảng : CREATE UNIQUE INDEX index_name ON table_name(column)
+  + Thêm index :ALTER TABLE table_name ADD UNIQUE index_name (column)
+
+
+
 # reflection 26/02/2021
 + Hàm AVG() trả về giá trị trung bình của một cột kiểu số.
 VD:
