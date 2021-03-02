@@ -1,5 +1,26 @@
 # module2-reflection
 
+# reflection 02/03/2021
++ CRUD : laf tên gọi ngắn gọn chỉ 4 thao tác cơ bản của hệ thống lưu trữ dữ liệu.
+ + CREATE: tạo dữ liệu
+ + READ: đọc dữ liệu
+ + UPDATE: cập nhật dữ liệu
+ + DELETE: xóa dữ liệu
++ Câu lệnh INSERT INTO được sử dụng để chèn một bản ghi mới vào bảng. 
++ V
++ ...Hiển thị toàn bộ dữ liệu trong bảng customers:
+select * from customers
++ ...select customernumber, contactlastname, contactfirstname, phone, city 
+from customers 
+where contactfirstname = 'Peter' and city = 'Melbourne' // Hiển thị mã khách hàng, tên, họ, số điện thoại của tất cả khách hàng có tên là Peter và sống ở thành phố Melbourne:
+...như trên..
+where contactfirstname like '%A%' //  Hiển thị thông tin khách hàng có tên chứa ký tự A:
+where customernumber between 103 and 125 // Hiển thị thông tin các khách hàng có mã trong khoảng từ 103 đến 125:
+where city in ('USA', 'France', 'Spain') // Hiển thị thông tin các khách hàng sống ở USA, France, Spain:
+where country = 'USA' or country = 'France' // Hiển thị mã khách hàng, tên, họ, số điện thoại, quốc gia của các khách hàng sống tại quốc gia USA hoặc France:
+order by contactfirstname asc // Hiển thị tất cả các khách hàng theo thứ tự từ a – z của tên:
+order by contactfirstname desc //  Hiển thị 10 khách hàng đầu tiên theo thứ tự từ z – a của tên:
+
 # reflection 01/03/2021
 +INDEX CHỈ MUC:
   +Là các bảng tra cứu đặc biệt mà db search engine có thể sử dụng để tăng nhanh thời gian và hiệu suất thu thập dữ liệu
