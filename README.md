@@ -1,5 +1,13 @@
 # module2-reflection
 
+# reflection 03/03/2021
++ MVC (Model – View – Controller) – MVC Pattern Design là một mô hình kiến trúc phần mềm được tạo ra với mục đích quản lí và xây dựng dự án phần mềm có hệ thống hơn, nói cụ thể thì nó là một mẫu thiết kế nhằm chia tách phần giao diện và phần code của ứng dụng để dễ dàng quản lí, bảo trì và phát triển. MVC được áp dụng trên hầu hết các ngôn ngữ lập trình hướng đối tượng hiện nay như C++, C#, Java, PHP, …
+ + Model: thường là các class chứa thông tin đối tượng (dữ liệu), tương tác truy xuất database.
+ + View: là nơi nhận dữ liệu từ model, database và sắp xếp chúng chính xác nhờ yêu cầu từ controller và truyền về client.
+ + Controller: Đóng vai trò trung gian giữa Model và View, nó có nhiệm vụ nhận yêu cầu từ client sau đó xử lý request, load model và gửi data qua view tương ứng với nhau rồi trả kết quả về cho client.
+
+
+
 # reflection 02/03/2021
 + CRUD : laf tên gọi ngắn gọn chỉ 4 thao tác cơ bản của hệ thống lưu trữ dữ liệu.
  + CREATE: tạo dữ liệu
