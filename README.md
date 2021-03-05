@@ -1,5 +1,14 @@
 # module2-reflection
 
+# reflection 04/03/2021
++ CSS là ngôn ngữ tạo phong cách cho trang web.Nó dùng để tạo phong cách và định kiểu cho những yếu tố được viết dưới dạng ngôn ngữ đánh dấu, như là HTML. Nó có thể điều khiển định dạng của nhiều trang web cùng lúc để tiết kiệm công sức cho người viết web. CSS được phát triển bởi W3C vào năm 1996 vì lý do HTML không được thiết kế để gắn tag để giúp định dạng trang web.
++ có 3 cách nhúng css vào trang web
+  + Viết mã CSS trực tiếp vào thẻ HTMl.
+  + Viết mã CSS trong cặp thẻ style
+  + Nhúng mã CSS từ một file khác vào trang HTMl
+
+
+
 # reflection 03/03/2021
 + MVC (Model – View – Controller) – MVC Pattern Design là một mô hình kiến trúc phần mềm được tạo ra với mục đích quản lí và xây dựng dự án phần mềm có hệ thống hơn, nói cụ thể thì nó là một mẫu thiết kế nhằm chia tách phần giao diện và phần code của ứng dụng để dễ dàng quản lí, bảo trì và phát triển. MVC được áp dụng trên hầu hết các ngôn ngữ lập trình hướng đối tượng hiện nay như C++, C#, Java, PHP, …
  + Model: thường là các class chứa thông tin đối tượng (dữ liệu), tương tác truy xuất database.
